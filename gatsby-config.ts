@@ -15,6 +15,7 @@ const config: GatsbyConfig = {
         path: `/Users/bidulgi69/Documents/github/gatsby/dove-demo/blog`,
       }
     },
+    "gatsby-plugin-mdx"
   ],
 }
 
