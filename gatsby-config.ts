@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `blog`,
-        path: `/Users/bidulgi69/Documents/github/gatsby/dove-demo/blog`,
+        path: `${__dirname}/blog`,
       }
     },
     "gatsby-plugin-mdx"
