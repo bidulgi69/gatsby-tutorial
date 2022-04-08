@@ -5,7 +5,10 @@ const config: GatsbyConfig = {
     title: `dove-demo`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ],
 }
 
 export default config
