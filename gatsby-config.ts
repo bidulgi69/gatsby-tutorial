@@ -7,7 +7,14 @@ const config: GatsbyConfig = {
   },
   plugins: [
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp"
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `/Users/bidulgi69/Documents/github/gatsby/dove-demo/blog`,
+      }
+    },
   ],
 }
 
